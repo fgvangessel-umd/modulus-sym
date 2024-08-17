@@ -20,6 +20,8 @@ on:
   # CI job triggers here
   issue_comment:
     types: [created]
+    branches:
+      - multi-gpu-ci-testing
   
   workflow_dispatch:
       inputs:
